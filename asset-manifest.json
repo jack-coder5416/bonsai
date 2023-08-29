@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bonsai/static/css/main.47f591ca.css",
+    "main.js": "/bonsai/static/js/main.71722c70.js",
+    "index.html": "/bonsai/index.html",
+    "main.47f591ca.css.map": "/bonsai/static/css/main.47f591ca.css.map",
+    "main.71722c70.js.map": "/bonsai/static/js/main.71722c70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47f591ca.css",
+    "static/js/main.71722c70.js"
+  ]
+}
