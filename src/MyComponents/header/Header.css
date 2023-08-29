@@ -1,0 +1,98 @@
+/* Header.css */
+
+/* Style for the header container */
+.navbar {
+  background-color: #ffffff;
+  /* Background color */
+  padding: 10px 0;
+  /* Padding top and bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add a subtle shadow */
+}
+
+/* Style for the leading logo (adjust as needed) */
+.leading-logo {
+  width: 170px;
+  /* Adjust the logo width as needed */
+  height: auto;
+  margin-right: 370px;
+  /* Add margin to separate logo from text */
+  margin-left: 10px;
+}
+
+/* Style for the Navbar brand text (adjust as needed) */
+.navbar-brand {
+  font-size: 1.5rem;
+  /* Adjust the font size as needed */
+  display: flex;
+  /* Display logo and text in a row */
+  align-items: center;
+  /* Vertically center logo and text */
+}
+
+/* Style for the Navbar items */
+.navbar-item {
+  color: #ffffff;
+  /* Text color */
+  font-weight: bold;
+  /* Font weight */
+  margin-right: 20px;
+  /* Spacing between items */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+
+/* Style for the Navbar toggle button (menu button on small screens) */
+.navbar-toggler-icon {
+  background-color: #ffff;
+  /* Color of the menu button lines */
+}
+
+/* Style for the login and start free buttons (adjust as needed) */
+.navbar-item .btn {
+  margin-left: 10px;
+  /* Spacing between buttons */
+}
+
+.custom-button-login {
+
+  border-color: #00b289;
+  color: #00b289;
+}
+
+.custom-button-start {
+  background-color: #00b289;
+  border-color: #00b289;
+
+}
+
+/* Custom button hover styles */
+.custom-button-login:hover {
+  background-color: #00b289;
+  border-color: #00b289;
+  color: #fff;
+}
+
+.custom-button-start:hover {
+  background-color: #00b289;
+  border-color: #00b289;
+  color: #fff;
+}
+
+/* Media query for responsiveness (adjust breakpoints as needed) */
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+    /* Reduce font size for smaller screens */
+  }
+
+  .navbar-item {
+    margin-right: 10px;
+    /* Reduce spacing between items */
+  }
+
+  .navbar-item .btn {
+    margin-left: 0;
+    /* Remove spacing between buttons */
+  }
+}

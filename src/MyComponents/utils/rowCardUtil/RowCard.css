@@ -1,0 +1,44 @@
+/* Add your custom CSS for styling the row card */
+.row-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .right-content {
+    flex: 1;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  /* Style for the title */
+  h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  /* Style for the description */
+  p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  /* Style for the price */
+  .right-content p:last-child {
+    font-weight: bold;
+    color: #00b289;
+  }
+  
